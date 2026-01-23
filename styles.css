@@ -23,7 +23,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #1a1a1a; /* lalala... i think its funny */
+    background-color: #1a1a1a; /* lalala... i think its funny *//* hahaha */
     padding: 20px 40px;
     display: flex;
     align-items: center;
@@ -69,6 +69,7 @@ main p {
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 16px;
 }
 
 .guest-list h3 {
@@ -78,5 +79,25 @@ main p {
 }
 
 .guest-list p {
+    margin-bottom: 0px;
+}
+
+/* Favorite Number Styles */
+.favorite-number {
+    background-color: #333333;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 16px;
+}
+
+.favorite-number h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.favorite-number p {
+    font-size: 32px;
     margin-bottom: 0px;
 }
